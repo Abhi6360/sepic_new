@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PCB analysis services for signal, power, and thermal integrity from SEPIC TECHNOLOGIES PRIVATE LIMITED."
+    />
+    <title>Analysis | SEPIC TECHNOLOGIES PRIVATE LIMITED</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="index.html#top" aria-label="SEPIC TECHNOLOGIES PRIVATE LIMITED home">
+          <img src="assets/SEPIC_LOGO.svg" alt="SEPIC TECHNOLOGIES PRIVATE LIMITED" />
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Open navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="site-menu" id="site-menu">
+          <div class="nav-item has-dropdown">
+            <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">Services</button>
+            <div class="dropdown-panel">
+              <a href="index.html#services">Services overview</a>
+              <a href="library-support.html">Library Support</a>
+              <a href="pcb-design.html">PCB Design</a>
+              <a href="analysis.html">Analysis</a>
+              <a href="dfx.html">DFX</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">Analysis</button>
+            <div class="dropdown-panel">
+              <a href="analysis.html">Analysis overview</a>
+              <a href="analysis.html#signal-power-thermal">Analysis domains</a>
+              <a href="analysis.html#reports">Reports and fixes</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">Process</button>
+            <div class="dropdown-panel">
+              <a href="index.html#process">Project workflow</a>
+              <a href="index.html#contact">Send project files</a>
+              <a href="dfx.html#release">Release readiness</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">Capabilities</button>
+            <div class="dropdown-panel">
+              <a href="index.html#capabilities">Capabilities overview</a>
+              <a href="pcb-design.html#layers">Layer stack planning</a>
+              <a href="library-support.html#deliverables">Library deliverables</a>
+            </div>
+          </div>
+          <a class="menu-cta" href="index.html#contact">Talk to an engineer</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero" aria-labelledby="page-title">
+        <div class="page-hero-copy" data-reveal>
+          <p class="eyebrow">Analysis</p>
+          <h1 id="page-title">Board-level analysis that turns electrical and thermal risk into layout action.</h1>
+          <p>
+            SEPIC packages signal, power, and thermal integrity review into one analysis service, so findings connect directly to stack-up, placement, routing, plane, and release decisions.
+          </p>
+          <a class="button button-primary" href="index.html#contact">Request analysis</a>
+        </div>
+        <figure class="page-hero-image" data-reveal>
+          <img
+            src="https://images.unsplash.com/photo-1742811631376-6e6a72f29181?auto=format&fit=crop&w=1200&q=80"
+            alt="Assembled circuit board used for electronics analysis"
+          />
+          <figcaption>Analysis is delivered with clear findings, priorities, and board-level fixes.</figcaption>
+        </figure>
+      </section>
+
+      <section class="detail-section section-panel" id="signal-power-thermal" aria-labelledby="analysis-domains-title">
+        <div class="detail-grid">
+          <div data-reveal>
+            <p class="section-kicker">Integrity domains</p>
+            <h2 id="analysis-domains-title">One analysis workflow across signal, power, and thermal behavior.</h2>
+          </div>
+          <div class="detail-list" data-reveal>
+            <article>
+              <h3>Signal Behavior</h3>
+              <p>Controlled impedance, differential routing, return paths, timing concerns, crosstalk, spacing, and route quality review for critical interfaces.</p>
+            </article>
+            <article>
+              <h3>Power Behavior</h3>
+              <p>PDN checks, decoupling strategy, plane continuity, DC drop review, regulator placement, and rail stability recommendations.</p>
+            </article>
+            <article>
+              <h3>Thermal Behavior</h3>
+              <p>Hotspot review, copper spreading, via strategy, device placement, airflow assumptions, and layout changes that reduce thermal stress.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section" id="reports" aria-labelledby="reports-title">
+        <div class="detail-grid">
+          <div data-reveal>
+            <p class="section-kicker">Reports and fixes</p>
+            <h2 id="reports-title">Findings are written for engineers who need to change the board.</h2>
+          </div>
+          <div class="report-stack" data-reveal>
+            <article class="report-card active">
+              <div class="report-top">
+                <span>Issue priority</span>
+                <strong>Actionable</strong>
+              </div>
+              <p>Each finding includes the affected area, expected risk, and recommended layout change.</p>
+              <div class="meter"><span style="width: 88%"></span></div>
+            </article>
+            <article class="report-card">
+              <div class="report-top">
+                <span>Review scope</span>
+                <strong>Traceable</strong>
+              </div>
+              <p>Constraint assumptions, checked domains, and unresolved inputs stay visible in the report.</p>
+              <div class="meter"><span style="width: 74%"></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-cta" data-reveal>
+        <p class="section-kicker">Next step</p>
+        <h2>Send PCB files, stack-up data, rail list, critical nets, and operating limits.</h2>
+        <a class="button button-primary" href="mailto:sales@sepic.in?subject=Analysis%20Request">Email sales@sepic.in</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="index.html#top" aria-label="SEPIC TECHNOLOGIES PRIVATE LIMITED home">
+          <img src="assets/SEPIC_LOGO.svg" alt="SEPIC TECHNOLOGIES PRIVATE LIMITED" />
+        </a>
+        <p>Library support, PCB design, analysis, and design for assembly and fabrication.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html#services">Services</a>
+        <a href="analysis.html">Analysis</a>
+        <a href="index.html#contact">Contact</a>
+        <span>&copy; <span id="year"></span> SEPIC TECHNOLOGIES PRIVATE LIMITED</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
