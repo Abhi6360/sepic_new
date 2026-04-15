@@ -405,6 +405,24 @@ textarea.form-control {
   background: rgba(255,255,255,0.02);
 }
 
+/* Process connector — shown only on wider viewports */
+@media (min-width: 1024px) {
+  .process-connector {
+    display: block !important;
+  }
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(to right, var(--electric-blue), var(--cyan));
+  z-index: 200;
+  transform-origin: left;
+}
+
 /* Footer */
 .footer {
   background: var(--surface-card);

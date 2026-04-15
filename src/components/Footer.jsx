@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2025 SEPIC TECHNOLOGIES PRIVATE LIMITED</p>
+          <p>© 2026 SEPIC TECHNOLOGIES PRIVATE LIMITED</p>
           <div style={{ display: 'flex', gap: '1rem' }}>
             <a href="mailto:sales@sepic.in" style={{ color: 'var(--cyan)' }}>sales@sepic.in</a>
           </div>

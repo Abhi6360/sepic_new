@@ -1,0 +1,126 @@
+You are a senior UI/UX designer and front-end developer specializing in high-end, modern, animated websites.
+
+I already have a PCB Design services website. Your task is to completely redesign ONLY the LANDING PAGE (homepage hero + sections) into a PREMIUM, FUTURISTIC, HIGH-TECH experience.
+
+-----------------------------------
+
+🎯 PRIMARY OBJECTIVE:
+Create a landing page that immediately impresses visitors within 3 seconds and communicates high technical expertise in PCB Design, Signal Integrity, and Electronics Engineering.
+
+-----------------------------------
+
+🎨 DESIGN STYLE:
+- Theme: Advanced electronics / PCB / signal flow
+- Look: Premium, minimal, futuristic, engineering-focused
+- Mode: Dark theme (primary)
+- Colors:
+  - Background: deep black / navy
+  - Accents: neon blue, cyan, electric green (like PCB traces)
+  - Subtle gradients and glow effects
+
+- Typography:
+  - Clean, modern sans-serif (Inter / Poppins / Space Grotesk)
+  - Strong hierarchy
+
+-----------------------------------
+
+🔥 HERO SECTION (MOST IMPORTANT):
+Design a visually stunning hero section with motion graphics:
+
+BACKGROUND:
+- Animated PCB-style circuit lines
+- Glowing signal traces moving across paths
+- Nodes/vias lighting up dynamically
+- Subtle parallax effect on mouse movement
+
+CONTENT:
+- Headline: “Precision PCB Design & Signal Integrity Solutions”
+- Subheading: short, technical, high-value statement
+- CTA buttons:
+  - “Get Quote”
+  - “View Services”
+
+ANIMATIONS:
+- Smooth fade + slide-in text
+- CTA hover effects (glow, ripple, scale)
+- Floating or rotating 3D PCB board (optional but preferred)
+
+-----------------------------------
+
+🧭 NAVIGATION BAR:
+Upgrade to modern premium navbar:
+
+- Transparent glassmorphism (blur background)
+- Sticky on scroll
+- Smooth transition when scrolling (transparent → solid)
+- Hover animations (underline glow or slide)
+- Include CTA button (“Get Quote”)
+- Mobile responsive with animated hamburger menu
+
+-----------------------------------
+
+📦 LANDING PAGE SECTIONS:
+
+1. SERVICES PREVIEW:
+- 3–4 cards (PCB Layout, Signal Integrity, Simulation, etc.)
+- Hover effects: lift + glow + subtle animation
+- Icons that resemble circuit patterns
+
+2. WHY CHOOSE US:
+- Animated counters (projects, experience, clients)
+- Smooth scroll reveal animations
+
+3. PROCESS SECTION:
+- Step-by-step workflow (Design → Simulation → Validation)
+- Animated connectors like PCB traces
+
+4. FEATURE / TECH STACK:
+- Tools like Cadence / Ansys style presentation (no logos required)
+- Animated grid or tech layout
+
+5. CALL TO ACTION:
+- Strong section with gradient glow background
+- “Start Your Project Today”
+
+-----------------------------------
+
+⚙️ ANIMATION SYSTEM:
+- Use smooth easing (cubic-bezier)
+- Scroll-triggered animations
+- Micro-interactions on hover
+- Keep animations smooth and not heavy
+
+-----------------------------------
+
+🛠️ TECH STACK:
+- Prefer React.js
+- Use:
+  - Framer Motion for animations
+  - CSS / Tailwind for styling
+- Clean component-based structure
+
+-----------------------------------
+
+📱 RESPONSIVENESS:
+- Fully responsive (mobile-first)
+- Maintain premium feel on all devices
+
+-----------------------------------
+
+⚡ PERFORMANCE:
+- Optimize animations for fast loading
+- Avoid lag or heavy scripts
+
+-----------------------------------
+
+📦 OUTPUT:
+- Provide complete landing page code
+- Modular React components
+- Ready to deploy
+
+-----------------------------------
+
+IMPORTANT:
+Do NOT create a generic template.
+This must feel like a high-end engineering company website with strong visual identity related to PCB design and electronics.
+Focus heavily on motion graphics, polish, and premium look.

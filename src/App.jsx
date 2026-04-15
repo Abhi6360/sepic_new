@@ -1,4 +1,5 @@
 import { Switch, Route } from 'wouter'
+import { motion, useScroll, useSpring } from 'framer-motion'
 import Home from './pages/Home'
 import Analysis from './pages/Analysis'
 import PCBDesign from './pages/PCBDesign'
@@ -7,9 +8,16 @@ import LibrarySupport from './pages/LibrarySupport'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
+function ScrollProgressBar() {
+  const { scrollYProgress } = useScroll()
+  const scaleX = useSpring(scrollYProgress, { stiffness: 200, damping: 30, restDelta: 0.001 })
+  return <motion.div className="scroll-progress" style={{ scaleX }} />
+}
+
 export default function App() {
   return (
     <>
+      <ScrollProgressBar />
       <Navbar />
       <main>
         <Switch>
