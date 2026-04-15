@@ -1,0 +1,122 @@
+You are a senior front-end architect and motion UI designer.
+
+I already have an existing PCB Design services website. Your task is to redesign and upgrade the entire UI/UX to a PREMIUM, MODERN, HIGH-TECH experience with strong focus on motion graphics, animations, and first-impression impact.
+
+PRIMARY GOAL:
+Create a visually stunning, futuristic, and professional website that immediately attracts visitors and builds trust within the first 3 seconds.
+
+-----------------------------------
+
+🔷 DESIGN LANGUAGE:
+- Theme: High-tech, engineering-focused (PCB / electronics / signal integrity)
+- Style: Minimal + premium + futuristic
+- Color palette:
+  - Dark mode base (deep navy / black / charcoal)
+  - Neon accents (electric blue, cyan, green traces)
+  - Subtle gradients and glow effects
+- Typography: Clean modern sans-serif (Inter / Poppins / Space Grotesk)
+
+-----------------------------------
+
+🔷 LANDING PAGE (HERO SECTION) – CRITICAL:
+Redesign completely with advanced motion graphics:
+
+- Add animated PCB circuit background:
+  - Flowing signal traces (like current moving)
+  - Glowing nodes and vias
+  - Subtle parallax movement on mouse move
+
+- Hero content:
+  - Strong headline: “Precision PCB Design & Signal Integrity Solutions”
+  - Subheading with technical credibility
+  - CTA buttons with hover animations (glow + ripple)
+
+- Animations:
+  - Smooth fade + slide-in elements
+  - Micro-interactions on hover
+  - Scroll-triggered animations
+  - Floating 3D PCB board effect (optional)
+
+-----------------------------------
+
+🔷 NAVIGATION BAR (IMPORTANT – REDESIGN):
+Current navbar is basic → upgrade to premium:
+
+- Sticky transparent navbar (blur/glassmorphism effect)
+- Smooth transition on scroll (background appears)
+- Animated underline or glow hover effect
+- Add subtle iconography
+- Include CTA button (e.g., “Get Quote”)
+- Mobile responsive with animated hamburger menu
+
+-----------------------------------
+
+🔷 OTHER SECTIONS (ALL PAGES):
+Apply consistent premium animation system:
+
+1. SERVICES SECTION:
+   - Cards with hover lift + glow
+   - Animated icons (PCB traces forming)
+   - Smooth reveal on scroll
+
+2. ABOUT SECTION:
+   - Timeline or animated stats (years, projects, etc.)
+   - Subtle motion graphics
+
+3. CASE STUDIES / PROJECTS:
+   - Interactive cards with hover zoom
+   - Overlay transitions
+   - Optional filtering animation
+
+4. CONTACT SECTION:
+   - Clean modern form
+   - Input focus animations
+   - Success animation on submit
+
+-----------------------------------
+
+🔷 GLOBAL ANIMATION SYSTEM:
+- Use smooth easing (cubic-bezier)
+- Avoid heavy lag; keep performance optimized
+- Use:
+  - Framer Motion (if React)
+  - GSAP (for advanced animations)
+  - CSS transitions where possible
+
+-----------------------------------
+
+🔷 TECH STACK (IMPORTANT):
+- Preferred: React.js (with component-based architecture)
+- Alternative: Flutter Web (if better suited for animations)
+- Use reusable components and clean structure
+
+-----------------------------------
+
+🔷 PERFORMANCE + UX:
+- Fully responsive (mobile + tablet + desktop)
+- Fast loading (optimize animations)
+- SEO-friendly structure
+- Accessibility considerations
+
+-----------------------------------
+
+🔷 EXTRA PREMIUM TOUCHES:
+- Cursor glow effect (optional)
+- Scroll progress indicator
+- Animated background grid (engineering feel)
+- Subtle sound/feedback (optional, minimal)
+
+-----------------------------------
+
+🔷 OUTPUT REQUIREMENTS:
+- Clean, modular code
+- Ready-to-deploy project
+- Replace existing UI but keep content structure adaptable
+- Ensure professional, corporate-grade finish
+
+-----------------------------------
+
+IMPORTANT:
+Do NOT create a generic template.
+This must feel like a high-end engineering SaaS website comparable to top tech companies.
+Focus heavily on motion design, polish, and first impression.
