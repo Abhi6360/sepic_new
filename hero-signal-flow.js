@@ -381,10 +381,18 @@
         grad.setAttribute("y2", pEnd.y);
 
         /* Update gradient stops: transparent -> full color */
-        grad.innerHTML =
-          '<stop offset="0%" stop-color="' + color.glow + '" stop-opacity="0"/>' +
-          '<stop offset="70%" stop-color="' + color.glow + '" stop-opacity="0.6"/>' +
-          '<stop offset="100%" stop-color="' + color.glow + '" stop-opacity="0.9"/>';
+        while (grad.firstChild) grad.removeChild(grad.firstChild);
+        [
+          { offset: "0%",   opacity: "0"   },
+          { offset: "70%",  opacity: "0.6" },
+          { offset: "100%", opacity: "0.9" },
+        ].forEach(function (s) {
+          var stop = document.createElementNS(SVG_NS, "stop");
+          stop.setAttribute("offset",       s.offset);
+          stop.setAttribute("stop-color",   color.glow);
+          stop.setAttribute("stop-opacity", s.opacity);
+          grad.appendChild(stop);
+        });
 
         /* Update the lit trace with a dash pattern that only shows the tail */
         var litLen = (p - tailStart) * pathLength;
